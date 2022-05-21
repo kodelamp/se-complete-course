@@ -9,7 +9,7 @@ Technologies
 -NODE
 -GIT
 
-![View Site]([https://kerwindows-inc.github.io//](https://kodelamp.github.io/se-complete-course/)).
+![View Site](https://kodelamp.github.io/se-complete-course/)
 
 
 
