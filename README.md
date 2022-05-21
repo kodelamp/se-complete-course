@@ -9,9 +9,9 @@ Technologies
 -NODE
 -GIT
 
--![View Site]([https://kerwindows-inc.github.io//](https://kodelamp.github.io/se-complete-course/)).
+![View Site]([https://kerwindows-inc.github.io//](https://kodelamp.github.io/se-complete-course/)).
 
 
 
 Created by
-- ![View Site](https://via.placeholder.com/15/1589F0/000000?text=+) `KodeLamp Studio`
+![View Site](https://via.placeholder.com/15/1589F0/000000?text=+) `KodeLamp Studio`
