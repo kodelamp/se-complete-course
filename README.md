@@ -14,4 +14,4 @@ Technologies
 
 
 Created by
-- ![KodeLamp Studio](https://via.placeholder.com/15/1589F0/000000?text=+) `KodeLamp Studio`
+- ![View Site](https://via.placeholder.com/15/1589F0/000000?text=+) `KodeLamp Studio`
