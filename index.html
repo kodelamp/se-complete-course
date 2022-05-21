@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Software Enginnering</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/highlight/default.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+
+    <!-- Sidebar Start -->
+    <button class="btn btn-lg btn-warning btn-offcanvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar">
+        <i class="fa fa-bars"></i>
+    </button>
+    <!-- Sidebar Start -->
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasSidebar"
+        aria-labelledby="offcanvasSidebarLabel">
+        <div class="offcanvas-header border-bottom">
+            <h2 class="fw-bold mb-0"><i class="fa fa-code me-2"></i>DevDocs</h2>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="flex-shrink-0 bg-white">
+                <ul class="list-unstyled ps-0">
+                    <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#home-collapse" aria-expanded="true">
+                             Arrays
+                        </button>
+                        <div class="collapse show" id="home-collapse">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li><a id="section-1-1" href="#why-do-we-need-arrays" class="text-body rounded">Why Do We Need Arrays?</a></li>
+                                <li><a id="section-1-2" href="#concatenating-arrays-and-joining-elements-in-a-string" class="text-body rounded">Concatenating Arrays and Joining Elements in a String</a></li>
+                                <li><a id="section-1-4" href="#php-how-to-age-birthday-from-year" class="text-body rounded">🐘 How to calculate age from year?</a></li>
+                                <li><a href="#section-1-5" class="text-body rounded">Section Iten 1.5</a></li>
+                                <li><a id="section-1-3" href="#php-create-aside-navs-for-admin-lte" class="text-body rounded">🐘 How to create aside class for AdminLTE</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#collapse-2" aria-expanded="false">
+                            PHP Arrays
+                        </button>
+                        <div class="collapse" id="collapse-2">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li><a id="section-2-1" href="#php-understanding-arrays-vs-strings" class="text-body rounded">🐘 Understanding Arrays vs Strings</a></li>
+                                <li><a id="section-2-2" href="#php-converting-a-string-to-an-array" class="text-body rounded">🐘 Converting A String To An Array</a></li>
+                                <li><a href="#section-2-3" class="text-body rounded">Section Iten 2.3</a></li>
+                                <li><a href="#section-2-4" class="text-body rounded">Section Iten 2.4</a></li>
+                                <li><a href="#section-2-5" class="text-body rounded">Section Iten 2.5</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#collapse-3" aria-expanded="false">
+                            Section Iten 3
+                        </button>
+                        <div class="collapse" id="collapse-3">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li><a href="#section-3-1" class="text-body rounded">Section Iten 3.1</a></li>
+                                <li><a href="#section-3-2" class="text-body rounded">Section Iten 3.2</a></li>
+                                <li><a href="#section-3-3" class="text-body rounded">Section Iten 3.3</a></li>
+                                <li><a href="#section-3-4" class="text-body rounded">Section Iten 3.4</a></li>
+                                <li><a href="#section-3-5" class="text-body rounded">Section Iten 3.5</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#collapse-4" aria-expanded="false">
+                            Section Iten 4
+                        </button>
+                        <div class="collapse" id="collapse-4">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li><a href="#section-4-1" class="text-body rounded">Section Iten 4.1</a></li>
+                                <li><a href="#section-4-2" class="text-body rounded">Section Iten 4.2</a></li>
+                                <li><a href="#section-4-3" class="text-body rounded">Section Iten 4.3</a></li>
+                                <li><a href="#section-4-4" class="text-body rounded">Section Iten 4.4</a></li>
+                                <li><a href="#section-4-5" class="text-body rounded">Section Iten 4.5</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#collapse-5" aria-expanded="false">
+                            Section Iten 5
+                        </button>
+                        <div class="collapse" id="collapse-5">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li><a href="#section-5-1" class="text-body rounded">Section Iten 5.1</a></li>
+                                <li><a href="#section-5-2" class="text-body rounded">Section Iten 5.2</a></li>
+                                <li><a href="#section-5-3" class="text-body rounded">Section Iten 5.3</a></li>
+                                <li><a href="#section-5-4" class="text-body rounded">Section Iten 5.4</a></li>
+                                <li><a href="#section-5-5" class="text-body rounded">Section Iten 5.5</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="mb-1">
+                        <a class="btn w-100 text-start" href="#section-end">Section Iten End</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="offcanvas-footer border-top text-center mt-auto p-3">
+			<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+			<small>Designed by <a href="#">Cyversify & KodeLamp</a>
+            </small>
+        </div>
+    </div>
+    <!-- Sidebar End -->
+
+    <!-- Hero Start -->
+    <div class="container-fluid bg-warning py-5 mb-5">
+        <div class="row py-5">
+            <div class="col-md-3 offset-md-1">
+                <img src="./img/kodelamp2.png"width="100%" alt="">
+            </div>
+            <div class="col-md-4 text-center">
+                <h1 class="display-1 fw-bold text-white mb-4"><i class="fa fa-code me-2"></i>Software Engineering</h1>
+                <h3 class="fw-bold text-white mb-3">THe Complete Course</h3>
+                <h5 class="fw-bold text-white mb-3">Designed by <a class="text-white" href="#">Kerwin THompson</a></h5>
+            </div>
+            <div class="col-md-3">
+                <img src="./img/cyversify.png"width="100%" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+    <div class="container py-5">
+        <h1 class="fw-bold display-4">Start</h1>
+        <p>This document was created as a repository for all of our code snippets used on various projects. This includes:</p>
+       <ul>
+           <li class="text-warning">A description of the code</li>
+           <li class="text-warning">How the code works?</li>
+           <li class="text-warning">Issues implementing this code</li>
+           <li class="text-warning">How the code was used?</li>
+           <li class="text-secondary">An example of the code used</li>
+           <li class="text-secondary">Code reference if applicable</li>
+           <li class="text-danger">How it may be improved?</li>
+           
+       </ul>
+    </div>
+    <!-- ------------------------------ Section 1 ------------------------------ -->
+    <!-- Section 1 Start -->
+    <div id='why-do-we-need-arrays' class="container py-5">
+        <h1 class="fw-bold display-4"><span class="text-warning">JS:</span> WHY DO WE NEED ARRAYS?</h1>
+        <iframe width="700" height="400" src="https://www.youtube.com/embed/c4e0c5fkEfY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+<h1>Sam has arrived and is rolling a wheelbarrow full of mysterious objects.</h1>
+<img class="img-fluid img-thumbnail" style="min-width:-320px;max-width:600px"  src="img/sam-wheelbarrow.png" alt="">
+<p  class="mt-3">You're wondering what all these objects are for, but before you even have a chance to ask, Sam is already looking over your shoulder to see what you're working on.</p>
+
+   <p>"Oh wow, arrays! I've recently finished Sprint 5 myself and I can tell you, these things are super useful. They're just like my wheelbarrow: I'd have such a hard time moving so many objects around, but here they are, packed neatly and as easy to move as a single object."</p> 
+   <p>Sam is very excited about the opportunity to give you a little lecture on arrays. "May I borrow your laptop for a moment?" Sam asks, then continues:</p> 
+    <p>"Arrays are used to store a collection of values of the same type. I'll show you an example. Consider the following image showing a drop-down list of search suggestions:</p>
+    <img class="img-fluid img-thumbnail " style="min-width:-320px;max-width:600px"  src="img/js-search.png" alt="A search bar on the Yandex search page. 'Javascript' is typed into the search bar and there are several drop-down autocomplete suggestions for Javascript.">
+    
+    <p  class="mt-3"><em>The search bar suggests relevant search terms using autocomplete</em></p>
+    <p><em>The search bar suggests relevant search terms using autocomplete</em></p>
+    <p>We could declare a separate variable for each item in the list:</p>
+    <pre class="mb-0">
+        <code class="language-js">
+            const suggestion1 = "javascript";
+const suggestion2 = "javascript download";
+const suggestion3 = "javascript: void 0";
+const suggestion4 = "javascript for beginners";
+const suggestion5 = "javascript error: wall is not defined"; 
+        </code></pre> 
+
+<p  class="mt-3">But this is very inconvenient for a number of reasons. Even doing something quite simple like arranging all the elements in alphabetical order would be tiresome, because you'd have to write a piece of code that analyzes each variable individually.</p> 
+<p>Plus, there could be a lot of search suggestions, and you can't predict exactly how many there will be.
+    Using an array addresses all these issues:</p>
+
+    <pre class="mb-0">
+        <code class="language-js">
+            const suggestions = [
+            "javascript",
+            "javascript download",
+            "javascript: void 0",
+            "javascript for beginners",
+            "javascript error: wall is not defined"
+          ]; 
+        </code></pre>  
+
+<p  class="mt-3">Arrays are the perfect way of dealing with any list of elements of the same type. This can be anything from search suggestions to items in a To-Do list, or definitions in a glossary.</p>
+<p>Even Greta Thunberg's Twitter feed is an array. Her tweets can be written as an array of objects in JavaScript:</p>
+<pre class="mb-0">
+    <code class="language-js">
+const tweets = [
+  {
+    username: "Greta Thunberg",
+    date: "8/27/2021",
+    text: "School strike week 158.",
+    retweets: 1861,
+    comments: 281,
+    likes: 13478
+  },
+  {
+    username: "Greta Thunberg",
+    date: "8/20/2021",
+    text: "School strike week 157.",
+    retweets: 1594,
+    comments: 408,
+    likes: 9338
+  },
+  {
+    username: "Greta Thunberg",
+    date: "8/6/2021",
+    text: "#HejaSverige !",
+    retweets: 1476,
+    comments: 255,
+    likes: 17695
+  }
+]; 
+</code></pre> 
+
+<p  class="mt-3">In this chapter, you'll work with arrays and learn how to do different things with them, like:</p>
+<ul><li>Adding and removing elements
+    <li>Sorting and filtering</li>
+<li>Finding elements in an array according to certain criteria</li>
+
+</ul>
+<p>JavaScript has built-in methods to help you do all these things, and that's what you're going to learn about now. While you get started on arrays, I'll go unload my wheelbarrow.</p>  <p>Hej då! (This means "bye" in Swedish. I've been learning it cause I hope to start a sustainable artistic commune in Stockholm one of these days.</p> <p  class="mt-3"></p>>They say software engineers often work remotely, right?)"</p> 
+        
+        
+    
+    </div>
+    <!-- Section 1 End -->
+    <!-- Section 2 Start -->
+    <div id=concatenating-arrays-and-joining-elements-in-a-string' class="container py-5">
+        <h1 class="fw-bold display-4"><span class="text-warning">JS:</span> CONCATENATING ARRAYS AND JOINING ELEMENTS IN A STRING</h1>
+        <h2 class="fw-bold mt-5">Code Description</h2>
+        <p>This can be achieved using string manipulation functions in PHP. First we find the position of the desired character in the string using <code>strpos()</code>, <code>substr()</code>, <code>ltrim</code>, and <code>trim()</code></p>
+
+        <h3 >Before</h3>
+        <pre class="mb-0">
+            <code class="language-js">
+        $new_string = substr($old_string, strpos($old_string, '_') + 1);
+            </code>
+        </pre>
+        <p>or</p>
+        <pre class="mb-0">
+            <code class="language-js">
+        $new_string = ltrim(stristr($old_string, '_'), '_');
+            </code>
+        </pre>
+
+        <h3 >After</h3>
+        <pre class="mb-0">
+            <code class="language-js">
+                $new_string = substr($old_string, 0, strpos($old_string, "-"));
+            </code>
+        </pre>
+        
+
+        <h2 class="fw-bold mt-5">How this code works?</h2>
+        <p>The above code was used to fix a problem with the global variable <code>$_GET[]</code> when calling pages on the index.php file for our back-end applications. The code was used to check the string in the url after index.php? by removing the question sign (?) before it and any other sign after it primarily an equal sign or an ampersand after it. The global variable <code>$_SERVER["REQUEST_URI"]</code> was used to grab the url. The process required two stages. </p>
+        <h3>Part 1: Remove question mark and everything before it </h3>
+        <pre>
+            <code class="language-js">
+//get ur
+//global variable:
+$_SERVER["REQUEST_URI"] = "/biz/cuc/index.php?studentprofile=C3836B2C";
+        
+$question_mark_check = ltrim(stristr($_SERVER["REQUEST_URI"], '?'), '?')
+//output: 
+studentprofile=C3836B2C
+        </code>
+        </pre>
+        <h3>Part 2: Remove equal sign and everything after it from the previous code executed </h3>
+        <pre>
+            <code class="language-js">
+//set input variable
+//variable
+$question_mark_check = "studentprofile=C3836B2C"
+$equal_sign_check = substr($question_mark_check, strpos($question-mark_check, '=') + 1)
+//output: 
+studentprofile
+        </code>
+        </pre>
+        <h2 class="fw-bold mt-5">Issues implementing this code</h2>
+        <p>There was one issue encountered when using this code. The code returns an empty value if the url does not have an equal sign or the ampersand in the string. To resolve this an if statement was used.</p>
+        <pre>
+            <code class="language-js">
+
+            </code>
+        </pre>
+        <h2 class="fw-bold mt-5">How this code was used?</h2>
+        <pre class="mb-0">
+            <code class="language-js">
+
+            </code>
+        </pre>  
+        <h5 class="fw-bold">References</h5>
+        <ul>
+            <li><a href="https://www.tallahasseedrupaldevelopers.com/tools-and-tips/php-remove-everything-and-including-character-string#:~:text=Home%20%C2%BB%20Tools%20%26%20Tips%20%C2%BB%20PHP%3A%20Remove,strpos%20%28%29%2C%20substr%20%28%29%2C%20ltrim%2C%20and%20trim%20%28%29">www.tallahasseedrupaldevelopers.com | Remove string before a character in PHP</a></li>
+            <li><a href="https://www.tallahasseedrupaldevelopers.com/tools-and-tips/php-remove-everything-after-and-including-string">www.tallahasseedrupaldevelopers.com  | Remove string  after a character PHP</a></li>
+        </ul>
+    </div>
+    <!-- Section 2 End -->
+    
+    
+
+    <!-- Empty Section Start -->
+    <div id='' class="container py-5">
+        <h1 class="fw-bold display-4"><span class="text-warning">JS:</span> TITLE<span class="text-warning"></span></h1>
+        
+        <h2 class="fw-bold mt-5">Code Description</h2>
+        <p>--</p>
+        <pre>
+            <code class="language-js">
+            ---   
+            </code>
+        </pre>
+        <h2 class="fw-bold mt-5">Issues implementing this code</h2>
+        <p></p>
+        <pre>
+            <code class="language-js">
+            -- 
+            </code>
+        </pre>
+        <h2 class="fw-bold mt-5">How this code was used?</h2>
+        <pre class="mb-0">
+            <code class="language-js">
+        ---
+            </code>
+        </pre>  
+        <h5 class="fw-bold">References</h5>
+        <ul>
+            <li><a href="#"></a>Link</li>
+        </ul>
+    </div>
+    <!-- Empty Section End -->
+
+ 
+
+
+
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-warning rounded back-to-top"><i class="fa fa-arrow-up"></i></a>
+    <footer>
+        <footer>All rights reserved</footer>
+    </footer>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/highlight/highlight.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
