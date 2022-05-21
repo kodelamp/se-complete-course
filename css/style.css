@@ -119,3 +119,14 @@ textarea.language-php {
   ::-webkit-scrollbar-thumb:hover {
     background: var(--primary);
   }
+
+  .img_frame{
+      max-width:700px;
+  }
+  .video_frame{
+    max-width:700px;
+}
+.flex{
+    display:flex;
+    margin:auto;
+}
